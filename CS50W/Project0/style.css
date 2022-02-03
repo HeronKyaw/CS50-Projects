@@ -1,0 +1,183 @@
+
+/* overall  */
+html{
+    min-width: 350px;
+}
+#bodySec {
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+.googleLogo, .googleImagesLogo {
+    max-width: 272px;
+    max-height: 92px;
+    margin-bottom: 30px;
+}
+.tobFlex{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+/* font  */
+.navi, .clickableBtn, .endOfP {
+    font-family: 'PT Sans', sans-serif;
+}
+ /* nav bar  */
+.navi {
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+    align-items: center;
+}
+
+#image, #advanced, #googleSearch {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#image:hover, #advanced:hover, #googleSearch:hover {
+    text-decoration: underline;
+}
+
+.alignR{
+    text-align: right;
+}
+.alignL {
+    text-align: left;
+}
+#backToGg{
+    height: 25px;
+    margin: 0;
+    text-align: left;
+}
+
+.usrPfp {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    background-color: aquamarine;
+    border: 0px solid grey;
+    padding: 2px;
+    border-radius: 50%;
+}
+.pfpForAdv {
+    margin-top: -30px;
+}
+
+/* clickable  */
+.functional {
+    width: auto;
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+/* text input */
+#searchInput {
+    display: flex;
+    width: auto;
+    max-width: 550px;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+}
+#searchInput:hover, #searchInput:focus{
+    box-shadow: 1px 1px 5px 0px grey;
+}
+.bi {
+    color: grey;
+    margin: 1px 0 0 5px;
+}
+#search {
+    width: 480px;
+    max-width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    flex: 100%;
+}
+.bi, #search {
+    display: flex;
+}
+.form-control {
+    height: 30px;
+}
+/* for button */
+.clickableBtn {
+    color: #3c3043;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    padding: 6px 10px;
+    margin: 5px;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+}
+.clickableBtn:hover {
+    border: 1px solid grey;
+}
+.clickableBtn:focus {
+    border: 1px solid rgb(46, 46, 238);
+}
+#advSearchBtn {
+    color: #ffffff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    padding: 0 12px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#advSearchBtn:hover {
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+
+/* body part */
+#advName {
+    margin: 25px 45px;
+    font-size: 20px;
+    color: #d93025;
+}
+.advSearch {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.col-2 > .smTitle {
+    font-size: 13px;
+}
+/* footer */
+.endOfP {
+    background-color: #f2f2f2;
+    position: absolute;
+    vertical-align: baseline;
+    bottom: 0;
+    width: 100%;
+    height: 13%;
+}
+.first-row{
+    border-bottom: 1px solid #dadce0;
+}
+.first-row, .second-row {
+    padding: 10px 30px;
+    color: #70757a;    
+}
+.second-row{
+    text-align: center;
+}
+#github, #linkedin, #gmail {
+    color: #70757a;
+    text-decoration: none;
+    margin: 0 30px;
+}
+#github:hover, #linkedin:hover, #gmail:hover {
+    text-decoration: underline;
+}
