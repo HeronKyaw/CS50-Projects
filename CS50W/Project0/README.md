@@ -1,3 +1,3 @@
-This is the google project.
-I made it as nearly exactly as the real Google.
-It might lack some features.
+This is the google project of CS50W.
+I made it as nearly exactly as the real Google but it might lack of some features. <br>
+Anyway, I created these website pages using <img width ='32px' height = "25px" src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg'>, <img width ='32px' height = "25px" src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg'>, <strong>and<strong>, <img width ='32px' height = "25px" src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/bootstrap.svg'>.
