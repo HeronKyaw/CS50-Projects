@@ -30,6 +30,7 @@ html{
     margin-top: 20px;
     font-size: 13px;
     align-items: center;
+    justify-content: space-between;
 }
 
 #image, #advanced, #googleSearch {
@@ -90,8 +91,6 @@ html{
     margin: 1px 0 0 5px;
 }
 #search {
-    min-width: 380px;
-    max-width: 500px;
     height: 30px;
     border: none;
     outline: none;
@@ -100,7 +99,16 @@ html{
 }
 @media (max-width: 426px) {
     #search{
-        min-width: 280px;
+        min-width: 328px;
+    }
+}
+@media (min-width: 427px) {
+    .col-2 {
+        min-width: 170px;
+    }
+    #search {
+        min-width: 420px;
+        max-width: 450px;
     }
 }
 .bi, #search {
@@ -135,7 +143,7 @@ html{
     min-width: 120px;
     float: right;
     padding: 0 12px;
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
     font-family: inherit;
     font-size: 11px;
     font-weight: bold;
@@ -155,11 +163,35 @@ html{
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
-    margin: 40px 2% 0 45px;
+    margin: 25px 2% 0 45px;
+}
+.advTitle  {
+    margin-right: 50px;
 }
 .col-2 > .smTitle {
     font-size: 13px;
 }
+.others {
+    margin: 10px 0 30px 10px;
+}
+.othersLi {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+.othersLi > li > a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 0%;
+    color: rgb(9, 9, 209);
+}
+.othersLi > li > a:hover {
+    text-decoration: underline;
+}
+.othersLi > li {
+    height: 19px;
+}
+
 /* footer */
 .endOfP {
     background-color: #f2f2f2;
